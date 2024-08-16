@@ -1,0 +1,32 @@
+body{
+    font-family: sans-serif,Arial, sans-serif;
+    background: linear-gradient(135deg,#153677,#4e085f);
+}
+.container{
+text-align: center;
+width: 50%;
+margin: auto;
+}
+h1{
+    color: #0a0a0a;
+    
+}
+ul{
+    list-style-type: none;
+    padding: 0%;
+}
+li{
+    margin: 5px 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f7f7f7;
+    padding: 8px;
+    border-radius: 5px;
+}
+#taskInput{
+    height: 25px;
+}
+#addtask{
+    height: 30px;
+}
